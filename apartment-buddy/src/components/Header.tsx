@@ -9,7 +9,7 @@ export default function Header() {
           </div>
           <h1 className="text-2xl font-bold">ApartmentBuddy</h1>
         </div>
-        <nav className="hidden md:flex items-center">
+        <nav className="flex items-center">
           <a href="#" className="mx-4">Home</a>
           <a href="#" className="mx-4">Features</a>
           <a href="#" className="mx-4">Pricing</a>

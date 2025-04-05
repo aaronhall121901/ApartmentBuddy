@@ -10,7 +10,15 @@ export default function Home() {
 
       <main className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 gap-8">
-          import React from 'react';
+          <div>
+            <h2 className="text-5xl font-bold leading-tight text-gray-800">Your companion for apartment living</h2>
+            <p className="mt-6 text-xl text-gray-600">Everything you need to make moving into your new apartment a breeze.</p>
+            <button className="mt-8 bg-primary text-white px-10 py-3 rounded-md text-lg font-medium">
+              Get Started
+            </button>
+
+            <StepGuide />
+          </div>
 
           <div className="space-y-8">
             <FeatureCard 
